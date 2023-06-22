@@ -1,0 +1,68 @@
+/* mengubah semua element teks dengan font-family yg sama  */
+body {
+    font-family: century gothic;
+}
+
+/* memberikan margin agar ada space di class container */
+.container {
+    margin: 40px 30px;
+}
+
+/* menghilangkan default margin dan padding dari h1  */
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* selebihnya di bawah hanya pengaturan font-size dan margin padding agar terlihat pas dan cocok*/
+.title {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.label {
+    font-size: 30px;
+}
+
+/* menggunakan border agar terlihat tidak kaku */
+.kolom {
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    width: 300px;
+}
+
+/* menggunakan border agar terlihat tidak kaku */
+/* menggunakan background-color agar terlihat lebih mencolok */
+.tombol {
+    font-size: 20px;
+    padding: 10px 14px;
+    color: white;
+    border: 1px;
+    border-radius: 10px;
+    background-color: rgb(65, 65, 220);
+    
+    margin-right: 12px;
+}
+
+.judul2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.judulRumus {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.rumus {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}

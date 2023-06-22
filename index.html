@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Website Konversi Suhu</h1>
+        <form action="" id="form">
+            <label class="label" for="theSuhu" id="theSuhuLabel">Celsius Ke Fahrenheit</label>
+            <br>
+            <input type="text" name="theSuhu" id="theSuhu" class="kolom">
+            <br>
+            <br>
+            <label class="label" for="theHasil" id="theHasilLabel">Hasil</label>
+            <br>
+            <input type="text" name="theHasil" disabled id="theHasil" class="kolom">
+            <br>
+            <br>
+            <button class="tombol" type="submit">Submit</button>
+            <button class="tombol" type="button" id="reverse">Fahrenheit to Celsius</button>
+        </form>
+        
+        <div class="caraKonversi">
+            <h2 class="judul2">Rumus Konversi Suhu</h2>
+
+            <div class="kotakRumus">
+                <p class="judulRumus" >Celsius ke Fahrenheit</p>
+                <p class="rumus">9&frasl;5 &#215; &deg;C + 32</p>
+            </div>
+            <div class="kotakRumus">
+                <p class="judulRumus" >Fahrenheit ke Celsius</p>
+                <p class="rumus">5&frasl;9 &#215; (&deg;F - 32)</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
